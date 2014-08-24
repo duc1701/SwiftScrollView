@@ -1,7 +1,7 @@
 SwiftScrollView
 ===============
 
-Swift implementation of UIScrollView-like view based upon Ole Begemann's [example](https://github.com/ole/CustomScrollView)
+Swift implementation of UIScrollView-like view based upon Ole Begemann's [example](https://github.com/ole/CustomScrollView).
 
 # Background
-I needed some custom behavior from UIScrollView and came across an outstanding blog post: [Understanding UIScrollView](http://oleb.net/blog/2014/04/understanding-uiscrollview/). This came as I was learning Swift and iOS development in general, so I figured translating the example to Swift would be a good exercise. 
+I needed some custom behavior from UIScrollView and came across an outstanding blog post: [Understanding UIScrollView](http://oleb.net/blog/2014/04/understanding-uiscrollview/). This happened as I was learning Swift and iOS development in general, so I figured translating the example to Swift would be a good exercise. 
