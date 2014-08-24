@@ -13,6 +13,7 @@
 		898DC86419A95D8700AA2671 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898DC86319A95D8700AA2671 /* Images.xcassets */; };
 		898DC87019A95D8700AA2671 /* SwiftScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DC86F19A95D8700AA2671 /* SwiftScrollViewTests.swift */; };
 		898DC87A19A95DF600AA2671 /* SwiftScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DC87919A95DF600AA2671 /* SwiftScrollView.swift */; };
+		89C7E56019A9A8F80028A127 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 89C7E55F19A9A8F80028A127 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		898DC86E19A95D8700AA2671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		898DC86F19A95D8700AA2671 /* SwiftScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScrollViewTests.swift; sourceTree = "<group>"; };
 		898DC87919A95DF600AA2671 /* SwiftScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftScrollView.swift; sourceTree = "<group>"; };
+		89C7E55F19A9A8F80028A127 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		898DC84E19A95D8700AA2671 = {
 			isa = PBXGroup;
 			children = (
+				89C7E55F19A9A8F80028A127 /* README.md */,
 				898DC85919A95D8700AA2671 /* SwiftScrollView */,
 				898DC86C19A95D8700AA2671 /* SwiftScrollViewTests */,
 				898DC85819A95D8700AA2671 /* Products */,
@@ -213,6 +216,7 @@
 			files = (
 				898DC85F19A95D8700AA2671 /* ViewController.swift in Sources */,
 				898DC85D19A95D8700AA2671 /* AppDelegate.swift in Sources */,
+				89C7E56019A9A8F80028A127 /* README.md in Sources */,
 				898DC87A19A95DF600AA2671 /* SwiftScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +405,7 @@
 				898DC87519A95D8700AA2671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		898DC87619A95D8700AA2671 /* Build configuration list for PBXNativeTarget "SwiftScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				898DC87819A95D8700AA2671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
