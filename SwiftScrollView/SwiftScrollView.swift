@@ -33,6 +33,5 @@ class SwiftScrollView : UIView
             fmax(minBoundsOriginY, fmin(newBoundsOriginY, maxBoundsOriginY));
 
         self.bounds = bounds;
-//        panGestureRecognizer.setTranslation(CGPointZero, inView: self)
     }
 }

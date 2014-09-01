@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         // forward the gesture to all subviews
         self.swiftScrollView2.handlePanGesture(panGestureRecognizer)
         self.swiftScrollView1.handlePanGesture(panGestureRecognizer)
+
+        // reset
+        panGestureRecognizer.setTranslation(CGPointZero, inView: self.view)
     }
 
     override func viewDidLoad() {
