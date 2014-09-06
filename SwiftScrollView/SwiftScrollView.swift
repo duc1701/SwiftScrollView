@@ -3,7 +3,7 @@
 //  SwiftScrollView
 //
 //  Created by Ducson Nguyen on 8/23/14.
-//  Copyright (c) 2014 Section Thirty One. All rights reserved.
+//  Copyright (c) 2014 Section 0x1F. All rights reserved.
 //
 
 import Foundation
