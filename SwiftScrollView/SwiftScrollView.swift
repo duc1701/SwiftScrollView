@@ -15,8 +15,8 @@ class SwiftScrollView : UIView
     var scrollVertical = true
     var scrollHorizontal = true
 
-    func handlePanGesture(panGestureRecognizer: UIPanGestureRecognizer) {
-        let translation = panGestureRecognizer.translationInView(self)
+    @objc func handlePanGesture(panGestureRecognizer: UIPanGestureRecognizer) {
+        let translation = panGestureRecognizer.translation(in: self)
         var bounds = self.bounds
 
         // translate bounds but don't allow values outside content_size
